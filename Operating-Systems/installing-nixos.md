@@ -38,3 +38,11 @@ finally I ran `nixos-install` and than reboot, and was in.
 * Another issue with my efi was I wasn't setting the correct flags. I was trying to use parted set boot with the efi partition, but that didn't work (spoiler, since it was a windows partition). The flag esp ended up working. 
 
 it was a suprisingly smooth experience, granted it did take most of the day, but I am happy.
+
+---
+## Some questions for later:
+* Why do I need gpt fs for uefi? I know gpt has faster write and read, but is that it?
+* Is /mnt/boot a special directory?
+* What does /dev/sda stand for?
+
+(should probably do some research on linux file systems)
